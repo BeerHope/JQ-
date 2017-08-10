@@ -1,0 +1,22 @@
+{
+  "name": "my tudou app",
+  "authors": [
+    "BeerHope <473163877@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "store2": "store#^2.5.1"
+  }
+}

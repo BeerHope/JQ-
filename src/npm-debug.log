@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '—-save-dev',
+1 verbose cli   'gulp' ]
+2 info using npm@3.8.9
+3 info using node@v6.2.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData —-save-dev
+8 silly fetchPackageMetaData gulp
+9 silly fetchOtherPackageData —-save-dev
+10 silly cache add args [ '—-save-dev', null ]
+11 verbose cache add spec —-save-dev
+12 silly fetchNamedPackageData gulp
+13 silly mapToRegistry name gulp
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry data Result {
+16 silly mapToRegistry   raw: 'gulp',
+16 silly mapToRegistry   scope: null,
+16 silly mapToRegistry   name: 'gulp',
+16 silly mapToRegistry   rawSpec: '',
+16 silly mapToRegistry   spec: 'latest',
+16 silly mapToRegistry   type: 'tag' }
+17 silly mapToRegistry uri https://registry.npmjs.org/gulp
+18 silly cache add parsed spec Result {
+18 silly cache add   raw: '—-save-dev',
+18 silly cache add   scope: null,
+18 silly cache add   name: null,
+18 silly cache add   rawSpec: '—-save-dev',
+18 silly cache add   spec: 'H:\\Holiday_Course\\step04\\gulp_prac\\20170808_1(gulp&&JQ)\\—-save-dev',
+18 silly cache add   type: 'local' }
+19 error addLocal Could not install H:\Holiday_Course\step04\gulp_prac\20170808_1(gulp&&JQ)\—-save-dev
+20 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'H:\Holiday_Course\step04\gulp_prac\20170808_1(gulp&&JQ)\—-save-dev'
+20 silly fetchPackageMetaData     at Error (native)
+20 silly fetchPackageMetaData  error for —-save-dev { Error: ENOENT: no such file or directory, open 'H:\Holiday_Course\step04\gulp_prac\20170808_1(gulp&&JQ)\—-save-dev'
+20 silly fetchPackageMetaData     at Error (native)
+20 silly fetchPackageMetaData   errno: -4058,
+20 silly fetchPackageMetaData   code: 'ENOENT',
+20 silly fetchPackageMetaData   syscall: 'open',
+20 silly fetchPackageMetaData   path: 'H:\\Holiday_Course\\step04\\gulp_prac\\20170808_1(gulp&&JQ)\\—-save-dev' }
+21 verbose request uri https://registry.npmjs.org/gulp
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 09:54:08
+24 verbose request id 50995a63802ea442
+25 verbose etag W/"59878d24-1d749"
+26 verbose lastModified Sun, 06 Aug 2017 21:41:56 GMT
+27 http request GET https://registry.npmjs.org/gulp
+28 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+29 info attempt registry request try #2 at 09:54:18
+30 verbose etag W/"59878d24-1d749"
+31 verbose lastModified Sun, 06 Aug 2017 21:41:56 GMT
+32 http request GET https://registry.npmjs.org/gulp
+33 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+34 info attempt registry request try #3 at 09:55:19
+35 verbose etag W/"59878d24-1d749"
+36 verbose lastModified Sun, 06 Aug 2017 21:41:56 GMT
+37 http request GET https://registry.npmjs.org/gulp
+38 silly get cb [ 304, undefined ]
+39 verbose etag https://registry.npmjs.org/gulp from cache
+40 verbose get saving gulp to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+41 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+42 silly rollbackFailedOptional Starting
+43 silly rollbackFailedOptional Finishing
+44 silly runTopLevelLifecycles Starting
+45 silly runTopLevelLifecycles Finishing
+46 silly install printInstalled
+47 verbose stack Error: ENOENT: no such file or directory, open 'H:\Holiday_Course\step04\gulp_prac\20170808_1(gulp&&JQ)\—-save-dev'
+47 verbose stack     at Error (native)
+48 verbose cwd H:\Holiday_Course\step04\gulp_prac\20170808_1(gulp&&JQ)
+49 error Windows_NT 6.1.7601
+50 error argv "D:\\Program Files\\nodejs\\node.exe" "D:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "—-save-dev" "gulp"
+51 error node v6.2.0
+52 error npm  v3.8.9
+53 error path H:\Holiday_Course\step04\gulp_prac\20170808_1(gulp&&JQ)\—-save-dev
+54 error code ENOENT
+55 error errno -4058
+56 error syscall open
+57 error enoent ENOENT: no such file or directory, open 'H:\Holiday_Course\step04\gulp_prac\20170808_1(gulp&&JQ)\—-save-dev'
+58 error enoent ENOENT: no such file or directory, open 'H:\Holiday_Course\step04\gulp_prac\20170808_1(gulp&&JQ)\—-save-dev'
+58 error enoent This is most likely not a problem with npm itself
+58 error enoent and is related to npm not being able to find a file.
+59 verbose exit [ -4058, true ]

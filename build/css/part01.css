@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+body{
+	width: 100%;
+	height: auto;
+	background: #00334b;
+}
+input{
+	outline: none;
+}
+#container{
+	width: 10rem;
+	height: 5rem;
+	margin: 50px auto;
+	font-size: 0.5rem;
+	text-align: center;
+	
+}
+#container h2{
+	color: #fff;
+	margin:10px auto;
+
+	
+}
+#container .task .submit,input{
+	height: 0.8rem;
+	border-radius: 0.2rem;
+	padding: 0 0.2rem;
+	font-size: 0.3rem;
+
+}
+#container .task .text{
+	width: 7.8rem;
+	outline: none;
+}
+#container .task .submit{
+	width: 1.4rem;
+	text-align: center;
+	outline: none;
+}
+#container .task_list{
+	margin-top: 2rem;
+	color: #333;
+	text-align: left;
+}
+#container .task_list .textContent{
+	display:inline-block;
+	position: absolute;
+	padding: 0 0.3rem;
+	top: 0;
+	width: 72%;
+	min-height: 0.8rem;
+	line-height: 0.8rem;
+	/*text-align: center;*/
+}
+#container .task_list li{
+	margin: auto;
+	padding:0 0.2rem;
+	width: 95%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	background: #fff;
+	border-radius: 0.2rem;
+	font-size: 0.3rem;
+	position: relative;
+
+}
+#container .task_list li+li{
+	margin-top: 0.2rem;
+	
+}
+#container .task_list .task_item .details{
+	position: absolute;
+	right: 0.2rem;
+	cursor: pointer;
+}
+#container .task_list .task_item .del{
+	position: absolute;
+	right: 1rem;
+	cursor: pointer;
+}
+#container .task_details{
+	background:#fff;
+	width:6rem;
+	height:2rem;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	font-size: 0.3rem;
+	padding: 0.1rem;
+	position:relative;
+	margin-top: 0.5rem;
+	/*text-align: left;*/
+}
+#container .task_details h4{
+
+}
+#container .task_details textarea.input_item,.datetime{
+	background: #eee;
+}
+#container .task_details .remind{
+	text-align: left;
+}
+#container .task_details .datetime{
+	width: 90%;
+}
+#container .task_details .task_detail_mask .update{
+	display: block;
+	width: 1rem;
+	height: 0.8rem;
+	border-radius: 0.2rem;
+	background:mediumslateblue;
+	position: relative;
+	left: 4rem;
+	top: 0.2rem;
+	cursor: pointer;
+}
+
+#container .task_details .task_detail_mask .close{
+	cursor: pointer;
+	display: block;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: darkorange;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
